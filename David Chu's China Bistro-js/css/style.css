@@ -1,0 +1,349 @@
+body {
+	font-family: 'Oxygen', sans-serif;	
+	font-size: 16px;
+	color: #fff;
+	background-color: #951c49;
+}
+
+/* HEADER START */
+header nav {
+	background-color: #f6b31f;
+	margin-bottom: 20px;
+}
+
+#logo-img {
+	background-image: url("../images/restaurant-logo_large.png");
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand div a {
+	text-decoration: none;
+	font-family: Lora, serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	color: #557c3e;
+	line-height: .75em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand p {
+	font-size: .7em;
+	color: #000;
+	text-transform: uppercase;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+.navbar-nav .nav-link {
+	padding-bottom: 0;
+	color: #951c49;
+	text-align: center;
+}
+.navbar-nav>.active>.nav-link, .navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
+	background-color: #e7e7e7;
+}
+.navbar-nav .nav-link span {
+	font-size: 1.8em;
+}
+
+#phone .nav-link {
+	text-align: right;
+	padding: 0;
+}
+#phone p {
+	text-align: right;
+	color: #557c3e;
+}
+/* HEADER END */
+
+/* FOOTER STATER */
+footer.footer-plane {
+	background: #222;
+	margin-top: 35px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	border-top: 0;
+}
+
+#hour span, #address span {
+	font-size: 1.2em;
+}
+#hour, #address {
+	line-height: 2;
+}
+#address p {
+	color: #557c3e;
+	font-size: 0.8em;
+	line-height: 1.8;
+}
+/* FOOTER END */
+
+/* HOME PAGE START */
+#call-btn a {
+	display: block;
+	background-color: #f6b319;
+	border: 2px solid #fff;
+	color: #951c49;
+	font-size: 1.5em;
+	padding: 10px;
+	margin: 0px 20px;
+}
+#call-btn a span {
+	font-size: 1.0em;
+}
+#xs-deliver {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: .7em;
+	letter-spacing: .1em;
+	margin-top: 5px;
+}	
+
+.container .jumbotron {
+	padding: 0;
+	margin-top: 15px;
+	box-shadow: 0 0 50px #3f0c1f;
+	border: 2px solid #3f0c1f;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+	overflow: hidden;
+	height: 250px;
+	width: 100%;
+	border: 2px solid #3F0C1F;
+	position: relative;
+	margin-bottom: 15px;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+	background: url("../images/menu-tile.jpg") no-repeat;
+	background-position: center;
+}
+#specials-tile {
+	background: url("../images/specials-tile.jpg") no-repeat;
+	background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	opacity: .8;
+}
+/* HOME PAGE END */
+
+/* MENU-CATEGORIES PAGE START */
+#menu-categories-title + div, #single-category-title + div {
+	margin-bottom: 50px;
+}
+
+.category-title {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	border: 1px solid #3F0C3F;
+	overflow: hidden;
+	margin: 0px auto 15px;
+}
+.category-title:hover {
+	box-shadow: 0px 1px 5px 1px #000;
+}
+.category-title span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #000;
+	opacity: .8;
+}
+/* MENU-CATEGORIES PAGE END */
+
+/* SINGLE-CATEGORY PAGE START */
+.category-item-photo {
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #3f0c1f;
+	max-width: 250px;
+	margin-right: -15px;
+	margin-left: auto;
+}
+.category-item-photo span {
+	width: 30%;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: #000;
+	opacity: .8;
+}
+
+.category-item-price {
+	width: 100%;
+	text-align: right;
+	font-size: 1.2em;
+	margin-right: -15px;
+	margin-left: auto;
+}
+.category-item-price span {
+	font-size: 0.6em;
+}
+
+.category-item-detail {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+.menu-tile hr {
+	width: 80%;
+	background-color: #fff;
+}
+
+/* SINGLE-CATEGORY PAGE END */
+
+@media (max-width: 479px) { /* xxs */	
+	.col-xxs-12 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		position: relative;
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+@media (max-width: 575px) { /* xs */
+	/* SINGLE-CATEGORY PAGE START */
+	.category-item-photo {
+		margin-right: auto;
+	}
+	.category-item-price, .category-item-title, .category-item-detail {
+		text-align: center;
+	}
+	/* SINGLE-CATEGORY PAGE END */
+}
+
+@media (max-width: 767px) { /* sm */
+	/* HEADER START */
+	.navbar-brand h1 {
+		font-size: 5vw;
+	}
+	.navbar-brand p {
+		font-size: .6em;
+		margin-top: 0;
+	}
+	.navbar-brand p img {
+		height: 20px;
+		width: 20px;
+	}
+	.navbar-nav .nav-link {
+		font-size: 1.2em;
+	}
+	.navbar-nav .nav-link span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+	/* HEADER END */
+
+	/* FOOTER START */
+	footer.footer-plane hr {
+		background-color: #fff;
+		width: 50%;
+		text-align: center;
+	}
+	footer.footer-plane section {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	footer.footer-plane p:nth-child(3) {
+		margin-bottom: 0px;
+	}
+	/* FOOTER END */
+
+	/* HOME PAGE START */
+	#call-btn a {
+		display: block;
+		background-color: #f6b319;
+		border: 2px solid #fff;
+		color: #951c49;
+		font-size: 1.5em;
+		padding: 10px;
+		margin: 0px 20px;
+	}
+	#call-btn a span {
+		font-size: 1.0em;
+	}
+	#xs-deliver {
+		text-align: center;
+		text-transform: uppercase;
+		font-size: .7em;
+		letter-spacing: .1em;
+		margin-top: 5px;
+	}	
+
+	#menu-tile, #specials-tile {
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+	/* HOME END */
+}
+
+@media (min-width: 768px) and (max-width: 991px) { /* md */
+	/* HOME START */
+	.container .jumbotron {
+		background-image: url("../images/jumbotron_768.jpg");
+		height: 432px;
+	}
+	/* HOME END */
+
+		/* MENU-CATEGORIES PAGE START */
+	/* MENU-CATEGORIES PAGE END */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { /* lg */
+	/* HEADER START */
+	#logo-img {
+		width: 100px;
+		height: 100px;
+		background-image: url("../images/restaurant-logo_medium.png");
+	}
+	/* HEADER END */
+
+	/* HOME PAGE START */
+	.container .jumbotron {
+		background-image: url("../images/jumbotron_992.jpg");
+		height: 558px;
+	}
+	/* HOME PAGE END */
+
+	/* MENU-CATEGORIES PAGE START */
+	/* MENU-CATEGORIES PAGE END */
+}
+
+@media (min-width: 1200px) {
+	/* HOME START */
+	.container .jumbotron {
+		background-image: url("../images/jumbotron_1200.jpg");
+		height: 675px;
+	}
+	/* HOME END */
+
+	/* MENU-CATEGORIES PAGE START */
+	/* MENU-CATEGORIES PAGE END */
+}
