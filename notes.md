@@ -61,5 +61,5 @@ md->sm变化：图片与文字占用2行，居中，每个条目用分割线隔�
 解决方法：
 1. 设置overflow:hidden;
 2. 每隔一个条目设置一次clear:left;
-3. <div class="clearfix visible-lg-block visible-md-block"></div>
+3. `<div class="clearfix visible-lg-block visible-md-block"></div>`
 
